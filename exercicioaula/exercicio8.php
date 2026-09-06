@@ -1,7 +1,11 @@
 <?php
-$senha= 7890;
-$senhacorreta= 6789;
-while ($senha != $senhacorreta) {
-    echo "sua senha esta incorreta";
+$senha= 1234;
+while ($senha != "1234"){
+    echo "Sua senha está incorreta digite outra";
+    break;
+}
+while ($senha == "1234"){
+echo "Acesso permitido";
+break;
 }
 ?>

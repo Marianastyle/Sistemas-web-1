@@ -1,9 +1,13 @@
 <?php
-$num= 1;
-$soma=0;
-while ($num <= 100 ) {
-    echo $num . "<br>" ;
-    $soma= $soma + $num; 
+$number= 100;
+$soma= 0;
+$contador = $number;
+while ($contador <= 100 ) {
+    $soma= ($contador + 1) * 50;
     $contador++;
+   
+  
 }
+echo "A soma dos números de 1 até 100 é: $soma.";
+
 ?>

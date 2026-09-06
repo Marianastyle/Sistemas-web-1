@@ -1,7 +1,7 @@
 <?php
-$num= 3;
+$num= 1;
 while ($num <= 19 ) {
     echo $num . "<br>" ;
-    $num= $num + 3; 
+    $num= $num + 2; 
 }
 ?>

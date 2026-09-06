@@ -1,6 +1,6 @@
 <?php
-$num= 1;
-while ($num <= 10) {
+$num= 10;
+while ($num >= 1) {
     echo $num . "<br>";
     $num--; 
 }
